@@ -1,0 +1,9 @@
+{
+    "control" : {},
+    "mesh" : {},
+    "particle" : {},
+    "mcc" : {
+        "cs_number" : 1000000,
+        "cs_de" : 0.0001
+    }
+}
