@@ -3,7 +3,13 @@
     "mesh" : {},
     "particle" : {},
     "mcc" : {
+        "background" : [6.64e-23, 0.0, 1e21, 300],
+        "species" : "O2",
         "cs_number" : 1000000,
         "cs_de" : 0.0001
+    },
+    "non_dim" : {
+        "n0" : 2.8e13,
+        "Te0" : 30000
     }
 }
