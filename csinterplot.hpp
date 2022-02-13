@@ -5,6 +5,7 @@
 #include <vector>
 #include <string>
 using namespace std;
+typedef double Real;
 
 static double n0, Te0;
 
@@ -17,7 +18,7 @@ const double     K_BOLTZMANN    = 1.38064852e-23;         // Boltzmann's constan
 const double     EPSILON0       = 8.85418781e-12;         // permittivity of free space [F/m]
 
 void gen_mcc_infile(const string& spname, const double num_cs, int de);
-void gen_reaction_infile(const string& spname, const double num_cs, int de);
+void gen_reaction_infile(const string& spname, const double num_cs, const int de, const int ntype, double* th);
 void gen_particle_infile();
 void gen_mesh_infile();
 void gen_control_infile();

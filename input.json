@@ -5,6 +5,7 @@
     "mcc" : {
         "background" : [6.64e-23, 0.0, 1e21, 300],
         "species" : "O2",
+        "pairs" : 2,
         "cs_number" : 1000000,
         "cs_de" : 0.0001
     },
