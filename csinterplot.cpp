@@ -1,4 +1,4 @@
-#include "csinterplot.hpp"
+#include "csinterplot.h"
 
 void gen_mcc_infile(const string& spname, const double num_cs, int de)
 {
